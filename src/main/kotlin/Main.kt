@@ -19,9 +19,16 @@ fun main() {
     println("del 1: ${day5PartOne2025(ingredients)}")
     println("del 2: ${day5PartTwo2025(ingredients)}")
 
+    println("Dag 8 2025")
+    // har inte gjort dag 8 själv!!
+    val day8 = Day82025("2025day8_input.txt")
+    //day8.solve()
+    day8.exportVisualisationData(".")
+
+    /*
     val l1 = mutableListOf<String>()
     val t1 = Tomteland().getUnderlings("Räven", l1)
-    println("Rävens underordnade: $t1 $l1")
+    println("Rävens underordnade: $t1 $l1")*/
 
 }
 
